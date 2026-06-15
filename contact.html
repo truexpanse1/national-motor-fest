@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Contact &amp; Sponsorship | National Motor Fest</title>
+  <meta name="description" content="Partner with National Motor Fest or get in touch. Email contact@nationalmotorfest.com, call or text (682) 500-5285, or send us a message." />
+  <link rel="canonical" href="https://nationalmotorfest.com/contact-us" />
+  <meta property="og:title" content="NMF | Contact Us" />
+  <meta property="og:description" content="Contact National Motor Fest — sponsorship, vendor, and general inquiries." />
+  <link rel="icon" href="https://assets.cdn.filesafe.space/yUQGU8g2rnaWyCUdEjrO/media/69fe66d86ca44fd334a9c5e4.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand" aria-label="National Motor Fest home">
+        <img src="https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/yUQGU8g2rnaWyCUdEjrO/media/69ee99309fe87a999436d463.png" alt="National Motor Fest logo" class="brand-logo" />
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="nmf3.html">Dynamic Events</a>
+        <a href="nmf-rally.html">NMF Rally</a>
+        <a href="contact.html">Sponsorship Opportunity</a>
+        <a href="contact.html" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <p class="eyebrow">Partner with NMF</p>
+        <h1>Contact Us</h1>
+        <p class="page-sub">We'd love to hear from you — sponsorship, vendor, rally, and general inquiries all welcome.</p>
+        <div class="contact-cards">
+          <div class="contact-card">
+            <p class="label">Email</p>
+            <a href="mailto:contact@nationalmotorfest.com">contact@nationalmotorfest.com</a>
+          </div>
+          <div class="contact-card">
+            <p class="label">Call or Text</p>
+            <a href="tel:+16825005285">(682) 500-5285</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="container">
+        <h2>Send Us a Message</h2>
+        <form name="nmf-contact" method="POST" action="/thank-you" data-netlify="true" netlify-honeypot="bot-field" class="lead-form">
+          <input type="hidden" name="form-name" value="nmf-contact" />
+          <p hidden><label>Don't fill this out: <input name="bot-field" /></label></p>
+          <div class="row">
+            <div class="field">
+              <label for="name">Full Name</label>
+              <input id="name" name="name" type="text" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required />
+            </div>
+          </div>
+          <div class="row">
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" />
+            </div>
+            <div class="field">
+              <label for="interest">I'm interested in</label>
+              <select id="interest" name="interest">
+                <option>Sponsorship</option>
+                <option>Becoming a Vendor</option>
+                <option>NMF Rally California '26</option>
+                <option>NMF3 — Paso Robles</option>
+                <option>General Inquiry</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-social">
+        <a href="https://www.facebook.com/nationalmotorfest" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.instagram.com/nationalmotorfest/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <p class="footer-tagline">NMF is a one-of-a-kind event showcasing every type of motor.</p>
+      <p class="footer-copy">&copy; 2026 National Motor Fest. All rights reserved.</p>
+      <p class="footer-credit">Site by <a href="https://truexpanse.com" target="_blank" rel="noopener">TrueXpanse</a></p>
+    </div>
+  </footer>
+  <script>(function(){var t=document.querySelector('.nav-toggle'),n=document.getElementById('primary-nav');if(t&&n){t.addEventListener('click',function(){var o=n.classList.toggle('open');t.setAttribute('aria-expanded',o?'true':'false')});}})();</script>
+</body>
+</html>
