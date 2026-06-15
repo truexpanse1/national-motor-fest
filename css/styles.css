@@ -227,3 +227,11 @@ h1,h2,h3{font-family:var(--font-head);font-weight:800;line-height:1.08;letter-sp
   .lead-form .row{grid-template-columns:1fr}
   .content{padding:52px 0}
 }
+
+/* Video showcase */
+.video-section{padding:78px 0;background:var(--bg)}
+.video-section.alt{background:var(--surface)}
+.video-frame{position:relative;max-width:1120px;margin:0 auto;border-radius:14px;overflow:hidden;
+  border:1px solid var(--line);background:#000;aspect-ratio:16/9}
+.video-frame video{width:100%;height:100%;object-fit:contain;display:block;background:#000}
+@media (max-width:760px){.video-section{padding:50px 0}}
