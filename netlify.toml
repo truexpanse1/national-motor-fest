@@ -17,3 +17,34 @@
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+
+# URL parity with the source site (and their existing indexed links)
+[[redirects]]
+  from = "/nmf-rally"
+  to = "/nmf-rally.html"
+  status = 200
+
+[[redirects]]
+  from = "/nmfsmokeshow"
+  to = "/nmfsmokeshow.html"
+  status = 200
+
+[[redirects]]
+  from = "/nmf3"
+  to = "/nmf3.html"
+  status = 200
+
+[[redirects]]
+  from = "/nmfteam"
+  to = "/nmfteam.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact-us"
+  to = "/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/home-493451"
+  to = "/index.html"
+  status = 301
