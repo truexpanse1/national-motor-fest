@@ -253,3 +253,11 @@ h1,h2,h3{font-family:var(--font-head);font-weight:800;line-height:1.08;letter-sp
 .sponsors .section-title::after{display:none}
 .sponsor-grid{gap:96px 40px;align-items:center;justify-items:center}
 .sponsor-grid img{background:transparent;border-radius:0;padding:0;width:auto;height:auto;max-width:min(260px,92%);max-height:170px;filter:none;display:block}
+
+/* Events: source layout — single column, heading above full-width uncropped banner */
+.event-stack{display:flex;flex-direction:column}
+.event-block{padding:34px 0;border-top:1px solid rgba(255,255,255,.25)}
+.event-block:first-child{border-top:0}
+.event-block h3{font-family:var(--font-head);font-weight:900;text-transform:uppercase;text-align:center;color:#fff;font-size:clamp(20px,2.6vw,34px);margin-bottom:22px;letter-spacing:.5px}
+.event-block img{display:block;width:100%;height:auto;border-radius:4px}
+.event-block a{display:block}
